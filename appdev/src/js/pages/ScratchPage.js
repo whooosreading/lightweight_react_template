@@ -30,7 +30,7 @@ class ScratchPage extends React.Component {
 		);
 	}
 
-	componentDidMountAAAA() {
+	componentDidMount() {
 		fetch("http://matilda.whooosreading.org/api/v1/search?q=harry+potter")
 		.then((response) => {
 			return response.json();
