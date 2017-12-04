@@ -1,4 +1,6 @@
-require("./App.scss")
+var ScratchPage = require("./pages/ScratchPage")
+
+require("../css/App.scss");
 
 class App extends React.Component {
 	constructor(props) {
@@ -6,10 +8,15 @@ class App extends React.Component {
 	}
 
 	render() {
+		if (this.props.path == "/scratch") {
+			var pageContent = <ScratchPage />;
+		}
+
 		return (
 			<div className="pageContainer container">
 				<div>
-					<h1>Hello Page!</h1>
+					<h1 className="appHeader">Hello Page!</h1>
+					{ pageContent }
 				</div>
 			</div>
 		);
