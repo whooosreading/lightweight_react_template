@@ -2,6 +2,8 @@
 
 Lightweight React app with npm and webpack.
 
+Everything interesting lives in `appdev`, and you should cd into that directory for most work.
+
 ## Includes
 
 - NPM
@@ -17,8 +19,27 @@ Defined with global scope:
 
 ## Port
 
-Runs by default on port 40000. Customize this in server.js.
+Runs by default on port 40000. Customize this in `server.js`.
 
 ## Routing
 
-There is very primitive routing possible by editing App.js logic
+There is very primitive routing possible by editing `App.js` logic.
+
+## Running the app
+
+```
+cd appdev
+foreman start -f Procfile.dev
+```
+
+Or, in seperate tabs:
+
+```
+cd appdev
+npm start
+```
+
+```
+cd appdev
+npm run webpack
+```
