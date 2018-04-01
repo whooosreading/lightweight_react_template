@@ -1,0 +1,3 @@
+appdev/node_modules
+appdev/dist/*
+!appdev/dist/index.html

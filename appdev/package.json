@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "webpack": "./node_modules/.bin/webpack --config webpack.config.js --watch"
+    "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
+    "webpack_watch": "./node_modules/.bin/webpack --config webpack.config.js --watch"
   },
   "author": "Whooo's Reading; Greg Sherrid",
   "license": "ISC",

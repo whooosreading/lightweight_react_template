@@ -1,2 +1,2 @@
 web: npm start
-assets:  npm run webpack
+assets: npm run webpack_watch
