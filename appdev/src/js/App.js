@@ -1,6 +1,6 @@
-var ScratchPage = require("./pages/ScratchPage")
+var ScratchPage = require("pages/ScratchPage")
 
-require("../css/App.scss");
+require("App.scss");
 
 class App extends React.Component {
 	constructor(props) {

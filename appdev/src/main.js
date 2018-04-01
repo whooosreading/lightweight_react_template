@@ -9,7 +9,7 @@ require("react-spinner/react-spinner.css")
 window.React = require("react");
 window.ReactDOM = require("react-dom");
 
-var App = require('./js/App.js');
+var App = require('App');
 
 var main = document.getElementById("main");
 
