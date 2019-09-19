@@ -55,3 +55,7 @@ docker-compose build
 docker-compose up # Runs the server in the foreground
 docker-compose up -d # Runs the server in the background
 ```
+
+## License
+
+Lightweight React Template is distributed under the terms of the [MIT license](http://opensource.org/licenses/MIT) ([LICENSE](./LICENSE)).
