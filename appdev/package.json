@@ -35,7 +35,7 @@
     "react-dom": "^15.4.2",
     "react-spinner": "^0.2.7",
     "spin": "0.0.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "description": ""
 }
