@@ -17,7 +17,7 @@
     "bootstrap-loader": "^2.0.0-beta.21",
     "bootstrap-sass": "^3.3.7",
     "css-loader": "^0.26.1",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "file-loader": "^0.10.0",
     "node-sass": "^4.5.0",
     "resolve-url-loader": "^2.0.0",
